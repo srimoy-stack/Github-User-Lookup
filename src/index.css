@@ -1,13 +1,70 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  margin:0;
+  padding:0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Roboto', 'Helvetica Neue',;
+  background: #b8a6cc;;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.input-field {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #070606;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  width: 300px;
+}
+
+.card {
+  width: 300px;
+  background-color:#001c5a;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin-top: 16px;
+  color:white;
+}
+
+.card h2 {
+  font-size: 24px;
+  margin-bottom: 8px;
+  color:white;
+}
+
+.card p {
+  font-size: 16px;
+  margin-bottom: 4px;
+  color: white;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 8px;
+}
+
+.card p:first-of-type {
+  margin-top: 16px;
+}
+
+.card p:last-of-type {
+  margin-bottom: 16px;
+}
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  margin: 20px;
+}
+
+.header-title {
+  margin: 20px;
+ color: #070606;
 }
